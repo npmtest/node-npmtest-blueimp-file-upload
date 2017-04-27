@@ -1,6 +1,6 @@
 # npmtest-blueimp-file-upload
 
-#### test coverage for  [blueimp-file-upload (v9.18.0)](https://github.com/blueimp/jQuery-File-Upload)  [![npm package](https://img.shields.io/npm/v/npmtest-blueimp-file-upload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-blueimp-file-upload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-blueimp-file-upload.svg)](https://travis-ci.org/npmtest/node-npmtest-blueimp-file-upload)
+#### basic test coverage for  [blueimp-file-upload (v9.18.0)](https://github.com/blueimp/jQuery-File-Upload)  [![npm package](https://img.shields.io/npm/v/npmtest-blueimp-file-upload.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-blueimp-file-upload) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-blueimp-file-upload.svg)](https://travis-ci.org/npmtest/node-npmtest-blueimp-file-upload)
 
 #### File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine,
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-blueimp-file-upload/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-blueimp-file-upload/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-blueimp-file-upload/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-blueimp-file-upload/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-blueimp-file-upload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-blueimp-file-upload/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-blueimp-file-upload/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-blueimp-file-upload/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-blueimp-file-upload/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-blueimp-file-upload/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-blueimp-file-upload/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-blueimp-file-upload/build/coverage.html/index.html)
 
@@ -106,7 +106,8 @@
         "version": "npm run bower-version-update && git add bower.json"
     },
     "title": "jQuery File Upload",
-    "version": "9.18.0"
+    "version": "9.18.0",
+    "bin": {}
 }
 ```
 
